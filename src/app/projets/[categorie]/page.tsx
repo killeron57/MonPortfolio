@@ -21,7 +21,7 @@ const tousLesProjets = {
       desc: "Jeu de cartes traditionnel italien en 3D avec une IA adverse sur Unreal Engine. (Juin 2026)",
       details: "Projet solo de 3 semaines sur le thème de 'l'automatisation'. Le joueur affronte une intelligence artificielle dans des parties de Scopa. Le défi principal a été de concevoir toute la logique du jeu de cartes et le processus de décision de l'IA entièrement via le système de Blueprints.",
       competences: ["Unreal Engine", "Blueprints", "IA"],
-      image: "/JustScopaGameMenu.png" 
+      image: "/JustScopaGame.mp4" 
     },
     { 
       id: 3, 
@@ -37,7 +37,7 @@ const tousLesProjets = {
       desc: "Escape game 3D immersif intégrant une conception sonore avancée avec FMOD. (Déc. 2025)",
       details: "Projet solo d'un mois sur le thème 'Escape Game'. J'ai pris en charge la création complète du jeu : de la modélisation 3D personnalisée de tous les environnements jusqu'à l'intégration de FMOD pour créer une ambiance sonore spatiale et hautement immersive.",
       competences: ["Unity 3D", "FMOD (Audio)", "Modélisation 3D", "Level Design"],
-      image: "/NoTimeToSpare.gif" 
+      image: "/NoTimeToSpare.mp4" 
     },
     { 
       id: 5, 
@@ -45,7 +45,7 @@ const tousLesProjets = {
       desc: "Serious game 2D de type 'Ice breaker' axé sur des quiz interactifs. (Janvier 2026)",
       details: "Conçu en équipe de 6, ce jeu a pour but de briser la glace entre les participants via une série de questions (ouvertes, vrai/faux) pour cumuler des points. Je me suis occupé d'une partie du développement sur Unity, en assurant la fluidité de la logique du quiz et du système de score.",
       competences: ["Unity 2D", "Serious Game", "C#", "GitHub", "Travail en équipe"],
-      image: "/BrainBreaker.gif" 
+      image: "/BrainBreaker.mp4" 
     },
     { 
       id: 6, 
@@ -61,7 +61,7 @@ const tousLesProjets = {
       desc: "Jeu d'arcade 2D axé sur l'intégration sonore FMOD et l'architecture des ScriptableObjects. (Sept. 2025)",
       details: "Réalisé en équipe de 3 en 1 mois. Le joueur incarne un pirate devant attraper de la malbouffe (qui le ralentit) tout en évitant les légumes. Mon but principal sur ce projet était d'apprendre la conception sonore avec FMOD et l'optimisation des données via les ScriptableObjects.",
       competences: ["Unity 2D", "FMOD", "ScriptableObjects", "C#", "GitHub"],
-      image: "/CaptainTooTipsy.gif" 
+      image: "/CaptainTooTipsy.mp4" 
     },
     { 
       id: 8, 
@@ -69,7 +69,7 @@ const tousLesProjets = {
       desc: "Jeu d'adresse 2D réalisé lors de la Global Game Jam 2025 (Thème : Bulle). (Janvier 2025)",
       details: "Créé en seulement 48 heures en équipe de 6. Le joueur incarne le dernier souffle (une bulle) d'un pirate coincé dans un navire englouti, devant remonter à la surface sans éclater. J'ai participé au développement technique des mécaniques de jeu en C#.",
       competences: ["Unity 2D", "Game Jam (48h)", "C#", "Travail en équipe"],
-      image: "/Drifted.gif" 
+      image: "/Drifted.mp4" 
     },
     { 
       id: 9, 
@@ -93,7 +93,7 @@ const tousLesProjets = {
       desc: "Stand de tir à la première personne (FPS) avec création de sound design personnalisé. (Fév. 2025)",
       details: "Projet solo de 3 semaines. J'ai développé un contrôleur FPS pour un stand de tir original où les cibles sont des paniers et les munitions des ballons. J'ai également enregistré et intégré moi-même tous les bruitages (Sound Design) du jeu.",
       competences: ["Unity 3D", "FPS Controller", "Sound Design", "C#"],
-      image: "/Lock&Shoot.gif" 
+      image: "/Lock&Shoot.mp4" 
     }
   ],
   "web-mobile": [
@@ -111,7 +111,7 @@ const tousLesProjets = {
       desc: "Application mobile de gestion de stock et clientèle pour magasin de jeux vidéo. (Mars 2026)",
       details: "Développée en binôme sur 1 mois. Il s'agit d'une application complète permettant à un gérant de suivre et modifier ses stocks, voir les commandes et gérer les contacts clients. J'ai utilisé React Native pour le front-end mobile, connecté à une API REST développée en Node.js avec l'ORM Sequelize pour la base de données.",
       competences: ["React Native", "Node.js", "Sequelize (API)", "Git", "Travail en équipe"],
-      image: "/GameStart.gif" 
+      image: "/GameStart.mp4" 
     },
     { 
       id: 22, 
@@ -119,7 +119,7 @@ const tousLesProjets = {
       desc: "Application web de quiz avec espace utilisateur et panel d'administration (CRUD). (Mars 2026)",
       details: "Projet d'une semaine mettant en place une architecture complète avec base de données SQL. L'utilisateur peut jouer et obtenir un récapitulatif détaillé de ses erreurs. J'ai également développé un espace administrateur sécurisé par mot de passe permettant d'ajouter, modifier ou supprimer des questions dynamiquement.",
       competences: ["PHP", "SQL", "HTML/CSS", "Authentification", "UWAMP"],
-      image: "/Quiz.gif" 
+      image: "/Quiz.mp4" 
     },
     { 
       id: 23, 
@@ -127,7 +127,7 @@ const tousLesProjets = {
       desc: "Application web exploitant la Programmation Orientée Objet pour le calcul et le dessin. (Fév. 2026)",
       details: "Projet technique d'une semaine centré sur la POO en PHP. Chaque forme (cercle, rectangle...) est une classe avec ses propres attributs et méthodes. L'utilisateur saisit les dimensions (rayon, hauteur) et l'algorithme calcule la surface et le périmètre avant de dessiner la forme en HTML/CSS sur la page web.",
       competences: ["PHP (POO)", "HTML/CSS", "Algorithmique", "UWAMP"],
-      image: "/TpObjet.gif" 
+      image: "/TpObjet.mp4" 
     },
     { 
       id: 24, 
@@ -135,7 +135,7 @@ const tousLesProjets = {
       desc: "Site vitrine (Projet concept) pour une boucherie en ligne. (Février 2026)",
       details: "Conçu lors d'un défi d'une journée. L'objectif était de créer rapidement une interface web claire et responsive pour présenter un commerce local. Le projet a été réalisé en utilisant la librairie Bootstrap couplée à des scripts personnalisés.",
       competences: ["HTML/CSS", "JavaScript", "Bootstrap", "Design Responsive"],
-      image: "/BouchAlal.gif" 
+      image: "/BouchAlal.mp4" 
     }
   ],
   "logiciels": [
@@ -145,7 +145,7 @@ const tousLesProjets = {
       desc: "Simulateur de gestion d'entreprise en Java optimisé via un algorithme de hachage. (Mars 2026)",
       details: "Projet de 2 semaines sur Eclipse. Contrairement aux listes classiques, ce programme stocke les employés (CRUD) en utilisant une Table de hachage (Hash Table) développée sur mesure. J'ai créé un algorithme calculant l'index mémoire via les codes ASCII (modulo 1000). Le projet respecte une architecture modulaire en 3 fichiers distincts (déclaration des classes, logique des méthodes, et main).",
       competences: ["Java", "Algorithmique (Hachage)", "Architecture Modulaire", "Eclipse"],
-      image: "/JavaHash.gif" 
+      image: "/JavaHash.mp4" 
     },
     { 
       id: 31, 
@@ -153,7 +153,7 @@ const tousLesProjets = {
       desc: "Logiciel Java avec interface graphique AWT reposant sur des listes doublement chaînées. (Mars 2026)",
       details: "Développé en 2 semaines. L'objectif était de concevoir une application visuelle permettant de gérer une liste d'employés (ajout, modification, suppression). Le défi technique principal a été d'implémenter manuellement la structure de 'liste doublement chaînée' pour la gestion des données en temps réel, couplée à une gestion rigoureuse des erreurs de saisie utilisateur.",
       competences: ["Java", "Java.awt (UI)", "Structures de Données", "Gestion d'erreurs"],
-      image: "/JavaLC.gif" 
+      image: "/JavaLC.mp4" 
     },
     { 
       id: 32, 
@@ -161,7 +161,7 @@ const tousLesProjets = {
       desc: "Programme Python (Spyder) gérant les stocks, la monnaie et les achats avec panel administrateur. (Déc. 2024)",
       details: "Projet de 3 semaines. L'algorithme gère de manière autonome le rendu de monnaie et la mise à jour des stocks de boissons selon les achats des clients. J'ai intégré un système robuste pour prévenir les erreurs de saisie (crashs) et un menu administrateur, sécurisé par mot de passe, permettant d'auditer les stocks et d'éteindre la machine.",
       competences: ["Python", "Spyder", "Logique Métier", "Sécurité (Admin)"],
-      image: "/ProjetPython.gif" 
+      image: "/ProjetPython.mp4" 
     },
     { 
       id: 33, 
@@ -169,7 +169,7 @@ const tousLesProjets = {
       desc: "Application console en C pour l'administration et le suivi du personnel. (Nov. 2024)",
       details: "Projet de 2 semaines sur Code::Blocks. Ce programme permet à un utilisateur de gérer le personnel de son entreprise via des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer). Chaque employé possède des attributs stricts (immatriculation, poste, salaire). L'accent a été mis sur la gestion propre de la mémoire en C.",
       competences: ["C", "Code::Blocks", "Algorithmique", "Gestion Mémoire"],
-      image: "/ProjetC.gif" 
+      image: "/ProjetC.mp4" 
     }
   ]
 };
@@ -208,13 +208,24 @@ export default function PageCategorie({ params }: { params: Promise<{ categorie:
               className="bg-slate-900 rounded-2xl p-6 border border-white/10 hover:border-cyan-500/50 transition-colors group cursor-pointer"
             >
               <div className="relative w-full h-64 rounded-xl mb-6 overflow-hidden border border-white/5">
-                <Image 
-                  src={projet.image} 
-                  alt={projet.titre} 
-                  fill 
-                  sizes="(max-width: 768px) 100vw, 50vw" 
-                  className="object-cover group-hover:scale-105 transition-transform duration-500" 
+              {projet.image.endsWith(".mp4") ? (
+                <video
+                  src={projet.image}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
+              ) : (
+                <Image
+                  src={projet.image}
+                  alt={projet.titre}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              )}
               </div>
               <h2 className="text-2xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">{projet.titre}</h2>
               <p className="text-slate-400 leading-relaxed mb-4">{projet.desc}</p>
@@ -252,13 +263,24 @@ export default function PageCategorie({ params }: { params: Promise<{ categorie:
               </button>
 
               <div className="relative w-full h-64 sm:h-80 shrink-0">
-                <Image 
-                  src={projetSelectionne.image} 
-                  alt={projetSelectionne.titre} 
-                  fill 
-                  sizes="(max-width: 768px) 100vw, 800px" 
-                  className="object-cover" 
-                />
+                {projetSelectionne.image.endsWith(".mp4") ? (
+                  <video
+                    src={projetSelectionne.image}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <Image 
+                    src={projetSelectionne.image} 
+                    alt={projetSelectionne.titre} 
+                    fill 
+                    sizes="(max-width: 768px) 100vw, 800px" 
+                    className="object-cover" 
+                  />
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent" />
               </div>
 

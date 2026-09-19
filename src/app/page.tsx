@@ -70,7 +70,7 @@ export default function Home() {
         >
           Salut, je suis <br className="md:hidden" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-            BENZINEB Kylian
+          Kylian BENZINEB
           </span>
         </motion.h1>
         
