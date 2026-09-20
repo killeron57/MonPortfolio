@@ -41,9 +41,9 @@ export default function Home() {
         className="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-white/10"
       >
         <div className="flex justify-between items-center p-6 max-w-5xl mx-auto">
-          <div className="font-extrabold text-xl tracking-tighter text-white">
+          <a href="#" className="font-extrabold text-xl tracking-tighter text-white hover:opacity-80 transition-opacity cursor-pointer">
             MonPortfolio<span className="text-cyan-400">.</span>
-          </div>
+          </a>
           <div className="hidden md:flex gap-8 font-medium text-sm text-slate-400">
             <a href="#projets" className="hover:text-white transition-colors">Projets</a>
             <a href="#a-propos" className="hover:text-white transition-colors">À propos</a>
@@ -66,9 +66,9 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 text-white"
+          className="text-5xl md:text-6xl font-extrabold tracking-tight mb-6 text-white"
         >
-          Salut, je suis <br className="md:hidden" />
+          Bonjour, je suis <br className="md:hidden" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
           Kylian BENZINEB
           </span>
@@ -78,10 +78,11 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="text-lg md:text-xl text-slate-400 mb-10 leading-relaxed max-w-2xl"
+          className="text-lg md:text-xl text-slate-400 mb-10 leading-relaxed max-w-3xl mx-auto"
         >
           Étudiant en informatique passionné par la création d'expériences interactives. 
-          De la conception <strong className="text-white">Web & Mobile</strong> au développement de <strong className="text-white">Jeux Vidéo</strong>.
+          De la conception <strong className="text-white">Web & Mobile</strong> au développement de <strong className="text-white whitespace-nowrap">Jeux Vidéo</strong>.<br/>
+          Et actuellement à la recherche d'une <strong className="text-white">alternance</strong> ou d'un <strong className="text-white">stage</strong> pour valider mon diplôme.
         </motion.p>
         
         <motion.div 
@@ -117,13 +118,16 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {mesCategories.map((cat, index) => (
               <motion.div 
-                key={cat.id}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.2 }}
-                className="bg-slate-950/50 rounded-2xl p-6 border border-white/10 hover:border-cyan-500/50 transition-colors group flex flex-col"
-              >
+              key={cat.id}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+              className="bg-slate-950/50 rounded-2xl border border-white/10 hover:border-cyan-500/50 transition-colors group flex flex-col"
+            >
+              {/* Le lien englobe maintenant toute la carte */}
+              <Link href={`/projets/${cat.id}`} className="flex flex-col h-full p-6 cursor-pointer">
+                
                 <div className="relative w-full h-48 rounded-xl mb-6 overflow-hidden border border-white/5 group-hover:border-white/10 transition-colors">
                   <Image 
                     src={cat.image} 
@@ -133,16 +137,17 @@ export default function Home() {
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
-                
                 <h3 className="text-2xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors">{cat.titre}</h3>
                 <p className="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
                   {cat.description}
                 </p>
-                
-                <Link href={`/projets/${cat.id}`} className="mt-auto text-sm text-cyan-400 font-bold uppercase tracking-wider hover:text-cyan-300 transition-colors inline-flex items-center gap-2">
+                {/* L'ancien lien devient un simple texte stylisé */}
+                <span className="mt-auto text-sm text-cyan-400 font-bold uppercase tracking-wider group-hover:text-cyan-300 transition-colors inline-flex items-center gap-2">
                   Voir les projets <span>→</span>
-                </Link>
-              </motion.div>
+                </span>
+                
+              </Link>
+            </motion.div>
             ))}
           </div>
         </div>
